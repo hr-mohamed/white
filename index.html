@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WHITE | Premium Hoodie Showcase</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav class="container">
+            <div class="logo">WHITE</div>
+            <ul class="nav-links">
+                <li><a href="#gallery">Collection</a></li>
+                <li><a href="#journey">Our Journey</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact" class="mail-btn">✉ Contact</a></li>
+            </ul>
+            <button id="themeToggle" class="theme-toggle" aria-label="Toggle theme">
+                <span class="theme-icon">☀️</span>
+            </button>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <h1 class="fade-in">Premium Designs For You</h1>
+                <p class="fade-in">Premium white hoodies featuring your senior year designs.</p>
+                <a href="#gallery" class="btn fade-in">Vote Now</a>
+            </div>
+        </section>
+
+        <section id="journey" class="about container">
+            <div class="about-content fade-in">
+                <h2 class="section-title">Our Journey</h2>
+                <div class="speech">
+                    <p>"These years have given us more than we ever imagined—memories we'll carry forever, lessons that
+                        shaped who we are, and friendships that became family.</p>
+                    <p>A special thanks from the heart to our brother, our friend, and our batch leader
+                        <strong>Moaz</strong>. You've stood by us through everything, carried so much on your shoulders,
+                        and played such a huge part in our success throughout this journey. You're truly one of the best
+                        people we've ever had the privilege to know. Thank you for everything, Moaz.
+                    </p>
+                    <p>As we step toward our future as teachers, we carry with us more than just degrees. We carry the
+                        understanding that education is about touching hearts, not just minds. We've learned that
+                        patience is power, that kindness can change lives, and that the impact we'll have on our
+                        students will ripple far beyond the classroom walls.</p>
+                    <p>This is our final year together, and while endings always feel bittersweet, they're also
+                        beautiful beginnings. We're not just becoming teachers—we're becoming the kind of people who
+                        light the way for others.</p>
+                    <p>Here's to the memories we've made, the dreams we're chasing, and the incredible educators we're
+                        all becoming.</p>
+                    <p>To us, to the future, and to making every moment count."</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="gallery" class="gallery">
+            <div class="container">
+                <h2 class="section-title">The Collection</h2>
+            </div>
+
+            <div class="collection-wrapper">
+                <button class="collection-scroll-btn prev-scroll" aria-label="Scroll Left">‹</button>
+
+                <div class="product-carousel" id="productCarousel">
+                    <!-- Product 1: Cinema Graphic -->
+                    <div class="product-card fade-in" data-id="1"
+                        data-images='["cinema_graphic_design.png", "cinema_graphic_hoodie.png"]'>
+                        <div class="product-image-container">
+                            <button class="carousel-btn prev" aria-label="Previous image">‹</button>
+                            <img src="cinema_graphic_design.png" alt="Cinema Graphic Hoodie" class="product-image">
+                            <button class="carousel-btn next" aria-label="Next image">›</button>
+                        </div>
+                        <div class="product-info">
+                            <h3>Cinema Graphic</h3>
+                            <p>Senior Year Collection • <span class="vote-count">0 votes</span></p>
+                            <button class="vote-btn vote-button">Vote for Design</button>
+                        </div>
+                    </div>
+
+                    <!-- Product 2: Seniors Graffiti -->
+                    <div class="product-card fade-in" data-id="2"
+                        data-images='["Screenshot_20260110_230416_com.zhiliaoapp.musically.jpg", "product-2.png"]'>
+                        <div class="product-image-container">
+                            <button class="carousel-btn prev" aria-label="Previous image">‹</button>
+                            <img src="Screenshot_20260110_230416_com.zhiliaoapp.musically.jpg"
+                                alt="Seniors Graffiti Hoodie" class="product-image">
+                            <button class="carousel-btn next" aria-label="Next image">›</button>
+                        </div>
+                        <div class="product-info">
+                            <h3>Seniors Graffiti</h3>
+                            <p>Senior Year Collection • <span class="vote-count">0 votes</span></p>
+                            <button class="vote-btn vote-button">Vote for Design</button>
+                        </div>
+                    </div>
+
+                    <!-- Product 3: Class of 2026 Signature -->
+                    <div class="product-card fade-in" data-id="3"
+                        data-images='["class_2026_design.png", "class_2026_hoodie.png"]'>
+                        <div class="product-image-container">
+                            <button class="carousel-btn prev" aria-label="Previous image">‹</button>
+                            <img src="class_2026_design.png" alt="Class of 2026 Hoodie" class="product-image">
+                            <button class="carousel-btn next" aria-label="Next image">›</button>
+                        </div>
+                        <div class="product-info">
+                            <h3>Class of 2026 Signature</h3>
+                            <p>Senior Year Collection • <span class="vote-count">0 votes</span></p>
+                            <button class="vote-btn vote-button">Vote for Design</button>
+                        </div>
+                    </div>
+
+                    <!-- Product 4: Modern Minimalist -->
+                    <div class="product-card fade-in" data-id="4"
+                        data-images='["modern_minimalist_design.png", "modern_minimalist_hoodie.png"]'>
+                        <div class="product-image-container">
+                            <button class="carousel-btn prev" aria-label="Previous image">‹</button>
+                            <img src="modern_minimalist_design.png" alt="Modern Minimalist Hoodie"
+                                class="product-image">
+                            <button class="carousel-btn next" aria-label="Next image">›</button>
+                        </div>
+                        <div class="product-info">
+                            <h3>Modern Minimalist</h3>
+                            <p>Senior Year Collection • <span class="vote-count">0 votes</span></p>
+                            <button class="vote-btn vote-button">Vote for Design</button>
+                        </div>
+                    </div>
+
+                    <!-- Product 5: Abstract Art -->
+                    <div class="product-card fade-in" data-id="5"
+                        data-images='["Screenshot_20260110_230735_com.zhiliaoapp.musically.jpg"]'>
+                        <div class="product-image-container">
+                            <button class="carousel-btn prev" aria-label="Previous image">‹</button>
+                            <img src="Screenshot_20260110_230735_com.zhiliaoapp.musically.jpg" alt="Abstract Art Hoodie"
+                                class="product-image">
+                            <button class="carousel-btn next" aria-label="Next image">›</button>
+                        </div>
+                        <div class="product-info">
+                            <h3>Abstract Art</h3>
+                            <p>Senior Year Collection • <span class="vote-count">0 votes</span></p>
+                            <button class="vote-btn vote-button">Vote for Design</button>
+                        </div>
+                    </div>
+
+                    <!-- Product 6: Street Culture -->
+                    <div class="product-card fade-in" data-id="6"
+                        data-images='["Screenshot_20260110_231056_com.zhiliaoapp.musically.jpg"]'>
+                        <div class="product-image-container">
+                            <button class="carousel-btn prev" aria-label="Previous image">‹</button>
+                            <img src="Screenshot_20260110_231056_com.zhiliaoapp.musically.jpg"
+                                alt="Street Culture Hoodie" class="product-image">
+                            <button class="carousel-btn next" aria-label="Next image">›</button>
+                        </div>
+                        <div class="product-info">
+                            <h3>Street Culture</h3>
+                            <p>Senior Year Collection • <span class="vote-count">0 votes</span></p>
+                            <button class="vote-btn vote-button">Vote for Design</button>
+                        </div>
+                    </div>
+
+                    <!-- Product 7: Classic Legacy -->
+                    <div class="product-card fade-in" data-id="7"
+                        data-images='["Screenshot_20260110_231657_com.zhiliaoapp.musically.jpg"]'>
+                        <div class="product-image-container">
+                            <button class="carousel-btn prev" aria-label="Previous image">‹</button>
+                            <img src="Screenshot_20260110_231657_com.zhiliaoapp.musically.jpg"
+                                alt="Classic Legacy Hoodie" class="product-image">
+                            <button class="carousel-btn next" aria-label="Next image">›</button>
+                        </div>
+                        <div class="product-info">
+                            <h3>Classic Legacy</h3>
+                            <p>Senior Year Collection • <span class="vote-count">0 votes</span></p>
+                            <button class="vote-btn vote-button">Vote for Design</button>
+                        </div>
+                    </div>
+                </div>
+
+                <button class="collection-scroll-btn next-scroll" aria-label="Scroll Right">›</button>
+            </div>
+        </section>
+    </main>
+
+    <!-- About Section -->
+    <section id="about" class="research-section">
+        <div class="research-content">
+            <h2>About WHITE</h2>
+            <p class="brand-slogan">"Where Premium Meets Passion - Crafting Memories, One Design at a Time"</p>
+            <p>Our collection is inspired by contemporary streetwear culture, blending minimalist aesthetics with bold
+                graphic expressions. Each design represents a unique aspect of our senior year journey, capturing the
+                essence of achievement, friendship, and growth.</p>
+            <div class="research-stats">
+                <div class="stat-item">
+                    <h3>7+</h3>
+                    <p>Unique Designs</p>
+                </div>
+                <div class="stat-item">
+                    <h3>100%</h3>
+                    <p>Premium Quality</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section container">
+        <h2 class="section-title">Get in Touch</h2>
+        <div class="contact-content">
+            <p>Have questions about our designs or want to place an order? We'd love to hear from you!</p>
+            <a href="mailto:contact@white-hoodies.com" class="contact-btn">Send us an Email</a>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 WHITE. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Floating Search Bar -->
+    <div class="floating-search-container">
+        <div class="floating-search-bar">
+            <span class="search-icon">Looking for something...</span>
+            <input type="text" class="search-input" placeholder="Search designs..." aria-label="Search designs">
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
